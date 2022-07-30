@@ -51,6 +51,7 @@ NSString *const RCTTCPErrorDomain = @"RCTTCPErrorDomain";
 
     return self;
 }
++ (BOOL)requiresMainQueueSetup
 
 - (BOOL)connect:(NSString *)host port:(int)port withOptions:(NSDictionary *)options error:(NSError **)error
 {
